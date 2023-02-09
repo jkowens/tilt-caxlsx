@@ -8,8 +8,9 @@ Gem::Specification.new do |gem|
   gem.email = "jkowens@gmail.com"
   gem.summary = "Generate xlsx documents with Tilt"
   gem.description = "Integrates Axlsx with Tilt"
-  gem.homepage = "https://github.com/jkowens/tilt-axlsx"
+  gem.homepage = "https://github.com/jkowens/tilt-caxlsx"
   gem.license = "MIT"
+  gem.required_ruby_version = ">= 2.5"
 
   gem.files = Dir["lib/**/*"] + %w[LICENSE README.md]
   gem.require_paths = ["lib"]
